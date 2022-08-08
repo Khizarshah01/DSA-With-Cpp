@@ -2,15 +2,15 @@
 Stacks are a type of container adaptors with LIFO(Last In First Out) type of working, where a new element is added at one end (top) and an element is removed from that end only.  Stack uses an encapsulated object of either vector or deque (by default) or list (sequential container class) as its underlying container, providing a specific set of member functions to access its elements.
 <h1>Stack Syntax:-</h1>
 
-For creating  a stack, we must include the <stack> header file in our code. We then use this syntax to define the std::stack:
+For creating  a stack, we must include the stack header file in our code. We then use this syntax to define the std::stack:
 
-template <class Type, class Container = deque<Type> > class stack;
+template <class Type, class Container = deque`Type` > class stack;
 
 Type – is the Type of element contained in the std::stack. It can be any valid C++ type or even a user-defined type.
 
 Container – is the Type of underlying container object.
 
-Member Types:-
+<h2>Member Types:-</h2>
 
 value_type- The first template parameter, T. It denotes the element types.
 
