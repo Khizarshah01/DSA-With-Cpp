@@ -1,2 +1,2 @@
 # Cpp_DSA
-Basic Concepts of DSA in c++ language 
+Basic Concepts of DSA in cpp language 
