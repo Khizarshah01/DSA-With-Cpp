@@ -14,7 +14,7 @@ using namespace std;
  Pointer Declaration / Creating - *ptr
     > Pointer ko Create kar ne ke liya ye syntax follow hota hai 'Data Type_*_Vairable;' Ex:- 'int *ptr;'.
     > Ek Pointer vairable ke address ko save kar ne ka 8 bytes leta hai. Usko koi fark nahi padta hai vo kon se data _type ka hai . 
-    > Mera hisab se double pointer similar hota hai single poisnter ke. Bas confuse kar ne ka liya diya jata hai or ek hi vairable ko double se use kar ne kaliya hota hai.
+    > Double Pointer Single Pointer ke address lena kaliya use hota hai or agar hame Doule Pointer ko Point kara na hai to Tripple POinter ka use hoanga  
 */
 
 int main () {
