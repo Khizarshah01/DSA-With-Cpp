@@ -1,0 +1,30 @@
+//link
+// https://leetcode.com/problems/permutations/submissions/
+class Solution {
+private:
+    void solve(vector<int> nums,vector<vector<int>>& ans,int index)
+    {
+        //Base case
+        if(index>=nums.size())
+        {
+            ans.push_back(nums);
+            return ;
+        }
+        //proccesing
+        for(int j=index;j<nums.size();j++)
+        {
+            swap(nums[index],nums[j]);
+            solve(nums,ans,index+1);
+            //Backtracking
+            swap(nums[index],nums[j]);
+        }
+    }
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> ans;
+        int index=0;
+        solve(nums,ans,index);
+        return ans;
+        
+    }
+};
