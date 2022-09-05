@@ -6,7 +6,7 @@ Stacks are a type of container adaptors that follow LIFO(Last In First Out) p
 */
 
 /*
-push() function is used to insert or ‘push’ an element at the top of the stack. This is an inbuilt function from C++ Standard Template Library(STL). This function belongs to the <stack> header file. The element is added to the stack container and the size of the stack is increased by 1.
+Push() function is used to insert or ‘push’ an element at the top of the stack. This is an inbuilt function from C++ Standard Template Library(STL). This function belongs to the <stack> Pheader file. The element is added to the stack container and the size of the stack is increased by 1.
 */
 int main()
 {
