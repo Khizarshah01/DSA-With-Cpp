@@ -1,5 +1,5 @@
-#include <stdio.h>;
-#include <stdlib.h>;
+#include <stdio.h>
+#include <stdlib.h>
 
 int BinarySearch(int arr[], int l, int key){
     int start = 0;
